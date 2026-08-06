@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON;
+
+
+EXEC DEPTREE_FILL('TABLE', 'SCOTT', 'DEPT');
+
+
+SELECT * FROM deptree;
+
+
+SELECT * FROM ideptree;
